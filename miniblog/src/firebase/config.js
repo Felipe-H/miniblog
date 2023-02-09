@@ -11,6 +11,8 @@ const firebaseConfig = {
   appId: "1:1005622485986:web:61ecb6cbed4715eb554fbb"
 };
 
+const app = initializeApp(firebaseConfig);
+
 // inicializamos o banco que salvará os dados:
 
 const db = getFirestore(app)
